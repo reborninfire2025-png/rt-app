@@ -93,7 +93,7 @@ export default function PracticeExam() {
                     padding: 16, border: `1px solid ${selectedCategory?.id === cat.id ? 'var(--accent-cyan)' : 'var(--border)'}`,
                     borderRadius: 'var(--radius)', background: selectedCategory?.id === cat.id ? 'rgba(0,212,255,0.1)' : 'rgba(255,255,255,0.03)',
                     color: selectedCategory?.id === cat.id ? 'var(--accent-cyan)' : 'var(--text-primary)',
-                    cursor: 'pointer', text-align: 'left', transition: 'all 0.2s', fontFamily: 'var(--font-body)',
+                    cursor: 'pointer', textAlign: 'left', transition: 'all 0.2s', fontFamily: 'var(--font-body)',
                   }}>
                   <div style={{ fontSize: 22, marginBottom: 8 }}>{cat.icon}</div>
                   <div style={{ fontWeight: 600, fontSize: 14, marginBottom: 4 }}>{cat.name}</div>
